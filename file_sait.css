@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 2rem 3rem;
+    font-family: sans-serif;
+  }
+  
+  .stage {
+    border: 1px dashed gray;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+  }
+  
+  .navigation {
+    list-style: none;
+    width: 300px;
+  }
+  
+  .navigation li {
+    margin: 0.5rem 0;
+  }
+  
+  .navigation li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  .navigation_v1 li a {
+    border: 1px solid blue;
+    color: blue;
+  }
+  .navigation_v2 li a {
+    border: 1px solid black;
+    background: gray;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navigation_inline {
+    list-style: none;
+    display: flex;
+  }
+  .navigation_inline li {
+    margin: 0 0.5rem;
+  }
+  .navigation_inline li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  .navigation_inline li a svg {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .navigation_v3 {
+    align-items: flex-end;
+  }
+  
+  .navigation_v3 li a {
+    color: gray;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navigation_v3 a:hover {
+    color: rgb(64, 123, 201);
+  }
+  
+  .navigation_v4 {
+    background: orange;
+  }
+  
+  .navigation_v4 li a {
+    padding: 1rem 1rem;
+    color: white;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .navigation_v4 li a:hover {
+    background: rgb(224, 152, 17);
+  }
+  .student {
+      color:rgb(224, 152, 17);
+      font-style: italic;
+  }
